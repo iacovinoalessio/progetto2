@@ -1,0 +1,90 @@
+/ferrari-website
+|-- index.html
+|-- css
+|   |-- style.css
+|-- js
+|   |-- script.js
+|-- img
+|   |-- (immagini della Ferrari)
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari - Sito Ufficiale</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Ferrari</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#modelli">Modelli</a></li>
+                <li class="nav-item"><a class="nav-link" href="#innovazioni">Innovazioni</a></li>
+                <li class="nav-item"><a class="nav-link" href="#racing">Racing</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contatti">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron text-center" id="home">
+        <h1>Benvenuti nel mondo Ferrari</h1>
+        <p>La passione per le auto sportive.</p>
+    </header>
+
+    <section id="modelli" class="container">
+        <h2>I nostri modelli</h2>
+        <!-- Aggiungi i modelli qui -->
+    </section>
+
+    <section id="innovazioni" class="container">
+        <h2>Innovazioni</h2>
+        <!-- Aggiungi informazioni sulle innovazioni -->
+    </section>
+
+    <section id="racing" class="container">
+        <h2>Storia delle corse</h2>
+        <!-- Aggiungi la storia delle corse -->
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Gallery</h2>
+        <!-- Galleria di immagini -->
+    </section>
+
+    <section id="contatti" class="container">
+        <h2>Contatti</h2>
+        <!-- Modulo di contatto -->
+    </section>
+
+    <footer class="text-center">
+        <p>&copy; 2024 Ferrari. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-image: url('../img/ferrari-bg.jpg');
+    color: white;
+    padding: 100px 0;
+}
+
+h2 {
+    margin-top: 40px;
+    color: #c00;
+}
